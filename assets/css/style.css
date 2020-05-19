@@ -78,13 +78,37 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 .intro__title {
-    width: 100%;
-    max-width: 300px;
-    margin: 0 auto;
+      width: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    
 
     text-align: center;
 }
+/* About*/
+.About__title {
+    text-align: center;
+}
+.About {
+    border: solid black;
+    display: flex;
+    justify-content: space-between;
 
+}
+.About__left {
+    border: solid red;
+    width: 300px;
+    height: 300px;
+    background: url("/assets/images/my_foto.jpg") center no-repeat;
+    background-size: auto 100%;
+
+
+}
+.About__right {
+    width: 40%;
+    border: solid blue;
+    display: flex;
+}
 
 
 
